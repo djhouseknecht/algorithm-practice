@@ -1,0 +1,39 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - TrainLinkedListApp",
+			"request": "launch",
+			"mainClass": "lists.TrainLinkedListApp",
+			"projectName": "algorithm-practice_2169ff1c"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - SnowbirdLiftApp",
+			"request": "launch",
+			"mainClass": "queues.SnowbirdLiftApp",
+			"projectName": "algorithm-practice_2169ff1c"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Test",
+			"request": "launch",
+			"mainClass": "Test",
+			"projectName": "algorithm-practice_2169ff1c"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - CardStackApp",
+			"request": "launch",
+			"mainClass": "stacks.CardStackApp",
+			"projectName": "algorithm-practice_2169ff1c"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - Problem",
+			"request": "launch",
+			"mainClass": "Problem",
+			"projectName": "algorithm-practice_2169ff1c"
+		}
+	]
+}
