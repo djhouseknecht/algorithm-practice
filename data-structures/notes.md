@@ -19,10 +19,10 @@ Useful repository: https://github.com/dlbunker/big-o-performance from [Dan Bunke
 
 ## Stack
 
-- _Push_: Put an item on the stack _`O(1)`_
-- _Pop_: Remove the top item _`O(1)`_
-- _Search_: Look for an item _`O(n)`_
-- _Access_: Find the item, then pop everything on top of it _`O(n)`_
+- _push_: Put an item on the stack _`O(1)`_
+- _pop_: Remove the top item _`O(1)`_
+- _search_: Look for an item _`O(n)`_
+- _access_: Find the item, then pop everything on top of it _`O(n)`_
 
 > Java provides two main classes for stacks. The `Stack<E>` and `Deque<E>` classes. Stacks are thread safe making them slower whereas `Deque`s are not thread safe making them faster. 
 
@@ -42,3 +42,8 @@ Useful repository: https://github.com/dlbunker/big-o-performance from [Dan Bunke
 - _find_: Find a specific item _`O(n)`_
 - _get_: Get an item at a specific index _`O(n)`_
 
+## Hash
+
+Hashes are sets of items. They are not ordered, but presents all the data to you. A hash is a `map`. `Arrays` are kind of like hashes. 
+
+*Keys:* You need to take your key and turn it into an `int` value. Use Java's `public int hashCode()`.
