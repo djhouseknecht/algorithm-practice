@@ -2,6 +2,27 @@
 	"configurations": [
 		{
 			"type": "java",
+			"name": "CodeLens (Launch) - TestBinaryTree",
+			"request": "launch",
+			"mainClass": "trees.TestBinaryTree",
+			"projectName": "algorithm-practice_2169ff1c"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - RandomTest",
+			"request": "launch",
+			"mainClass": "trees.RandomTest",
+			"projectName": "algorithm-practice_2169ff1c"
+		},
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - ContactManagerApp",
+			"request": "launch",
+			"mainClass": "trees.ContactManagerApp",
+			"projectName": "algorithm-practice_2169ff1c"
+		},
+		{
+			"type": "java",
 			"name": "CodeLens (Launch) - MotorcycleOilChangeApp",
 			"request": "launch",
 			"mainClass": "hashes.MotorcycleOilChangeApp",

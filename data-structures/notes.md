@@ -47,3 +47,9 @@ Useful repository: https://github.com/dlbunker/big-o-performance from [Dan Bunke
 Hashes are sets of items. They are not ordered, but presents all the data to you. A hash is a `map`. `Arrays` are kind of like hashes. 
 
 *Keys:* You need to take your key and turn it into an `int` value. Use Java's `public int hashCode()`.
+
+## Tree
+
+Trees can be a **Parent**, **Child**, or **Both**. A binary tree has a **left** and a **right** property. They are not required to have a value in the branches. 
+
+> Trees have an *`O(log n)`*

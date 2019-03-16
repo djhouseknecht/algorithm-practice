@@ -3,6 +3,7 @@ package hashes;
 /**
  * BasicHashTable
  */
+@SuppressWarnings("rawtypes")
 public class BasicHashTable <X, Y> implements IBasicHashTable <X, Y> {
 	private HashEntry[] data;
 	private int capacity; //max size
@@ -105,28 +106,29 @@ public class BasicHashTable <X, Y> implements IBasicHashTable <X, Y> {
 	}
 
 	/* private class to hold each entry */
-	private class HashEntry<X, Y> { 
-		private X key;
-		private Y value;
+	@SuppressWarnings("unused")
+	private class HashEntry<K, V> { 
+		private K key;
+		private V value;
 
-		public HashEntry(X key, Y value) { 
+		public HashEntry(K key, V value) { 
 			this.key = key;
 			this.value = value;
 		}
 
-		public X getKey() {
+		public K getKey() {
 			return key;
 		}
 
-		public void setKey(X key) {
+		public void setKey(K key) {
 			this.key = key;
 		}
 
-		public Y getValue() {
+		public V getValue() {
 			return value;
 		}
 
-		public void setValue(Y value) {
+		public void setValue(V value) {
 			this.value = value;
 		}
 	}
